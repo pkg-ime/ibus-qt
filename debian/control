@@ -1,14 +1,14 @@
 Source: ibus-qt
 Section: utils
 Priority: optional
-Maintainer: LI Daobing <lidaobing@debian.org>
-Uploaders: Asias He <asias.hejun@gmail.com>
+Maintainer: IME Packaging Team <pkg-ime-devel@lists.alioth.debian.org>
+Uploaders: LI Daobing <lidaobing@debian.org>, Asias He <asias.hejun@gmail.com>
 Build-Depends: debhelper (>= 7), cmake, pkg-config, libqt4-dev,
  libdbus-1-dev, libx11-dev, libicu-dev, libibus-dev, doxygen
-Standards-Version: 3.8.4
+Standards-Version: 3.9.1
 Homepage: http://code.google.com/p/ibus
-Vcs-Bzr: lp:~lidaobing/ibus/ibus-qt
-Vcs-Browser: https://code.launchpad.net/~lidaobing/ibus/ibus-qt
+Vcs-Bzr: lp:~pkg-ime/ibus/debian-ibus-qt
+Vcs-Browser: https://code.launchpad.net/~pkg-ime/ibus/debian-ibus-qt
 
 Package: ibus-qt4
 Architecture: any
@@ -42,4 +42,3 @@ Description: qt-immodule for ibus (QT4)
  .
  This package contains the header files which is needed for 
  developing the ibus-qt applications.
-

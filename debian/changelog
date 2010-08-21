@@ -1,8 +1,19 @@
-ibus-qt (1.3.0-1) unstable; urgency=low
+ibus-qt (1.3.1-1) unstable; urgency=low
 
-  * build for lucid.
+  [ Asias He ]
+  * New upstream release.
+  * debian/control:
+    - set maintainer to pkg-ime, add LI Daobing <lidaobing@debian.org> 
+      & Asias He <asias.hejun@gmail.com> to uploaders.
+    - update Vcs-* fields.
+    - bump standards version to 3.9.1.
+  * removed debian/patches/binutils-gold.
+  * debian/watch: moved to googlecode.debian.net 
 
- -- Peng Huang <shawn.p.huang@gmail.com>  Fri, 16 Apr 2010 14:45:00 +0800
+  [ LI Daobing ]
+  * debian/watch: updated. 
+
+ -- LI Daobing <lidaobing@debian.org>  Sat, 21 Aug 2010 22:42:36 +0800
 
 ibus-qt (1.3.0-1) unstable; urgency=low
 
