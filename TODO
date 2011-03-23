@@ -1,0 +1,13 @@
+
+
+== data struct ==
+    IBusSerializable   phuang  100%
+    IBusText           phuang  100%
+    IBusAttribute      liudl   100%
+    IBusAttrList       liudl   100%
+    IBusProperty       luoxs   100%
+    IBusPropList       luoxs   100%
+    IBusLookupTable    luoxs   100%
+    IBusEngineDesc     luoxs   100%
+    IBusComponent      luoxs   100%
+    IBusEngine         luoxs    80%
