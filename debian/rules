@@ -1,6 +1,6 @@
 #!/usr/bin/make -f
 %:
-	dh $@ --with python2
+	dh $@
 
 override_dh_makeshlibs:
 	        dh_makeshlibs -Nibus-qt4
