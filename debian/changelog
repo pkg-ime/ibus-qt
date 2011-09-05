@@ -1,3 +1,14 @@
+ibus-qt (1.3.1-2) unstable; urgency=low
+
+  * Fix "FTBFS: FTBFS on latest unstable."
+    Depend on libibus-1.0-dev instead of libibus-dev (Closes: #640040)
+  * Fix "INSTALL file unnecessary" (Closes: #632817)
+  * Set VCS to git.debian.org
+  * Set DM-Upload-Allowed to yes
+  * Bump Standards-Version to 3.9.2
+
+ -- Asias He <asias.hejun@gmail.com>  Mon, 05 Sep 2011 09:23:12 +0800
+
 ibus-qt (1.3.1-1) unstable; urgency=low
 
   [ Asias He ]

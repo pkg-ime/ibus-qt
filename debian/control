@@ -4,11 +4,12 @@ Priority: optional
 Maintainer: IME Packaging Team <pkg-ime-devel@lists.alioth.debian.org>
 Uploaders: LI Daobing <lidaobing@debian.org>, Asias He <asias.hejun@gmail.com>
 Build-Depends: debhelper (>= 7), cmake, pkg-config, libqt4-dev,
- libdbus-1-dev, libx11-dev, libicu-dev, libibus-dev, doxygen
-Standards-Version: 3.9.1
+ libdbus-1-dev, libx11-dev, libicu-dev, libibus-1.0-dev, doxygen
+Standards-Version: 3.9.2
 Homepage: http://code.google.com/p/ibus
-Vcs-Bzr: lp:~pkg-ime/ibus/debian-ibus-qt
-Vcs-Browser: https://code.launchpad.net/~pkg-ime/ibus/debian-ibus-qt
+Vcs-Git: git://git.debian.org/pkg-ime/ibus-qt.git
+Vcs-Browser: http://git.debian.org/?p=pkg-ime/ibus-qt.git
+DM-Upload-Allowed: yes
 
 Package: ibus-qt4
 Architecture: any
