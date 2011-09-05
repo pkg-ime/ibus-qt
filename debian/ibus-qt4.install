@@ -1,2 +1,3 @@
 debian/tmp/usr/lib/qt4/*
-debian/tmp/usr/share/*
+debian/tmp/usr/share/doc/ibus-qt-*/README
+debian/tmp/usr/share/doc/ibus-qt-*/AUTHORS
