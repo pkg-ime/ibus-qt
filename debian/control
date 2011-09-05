@@ -35,7 +35,7 @@ Description: qt-immodule for ibus (QT4)
 Package: libibus-qt-dev
 Section: libdevel
 Architecture: any
-Depends: libibus-qt1 (= ${binary:Version}), libqt4-dev, libibus-dev, libdbus-1-dev, ${shlibs:Depends}, ${misc:Depends}
+Depends: libibus-qt1 (= ${binary:Version}), libqt4-dev, libibus-1.0-dev, libdbus-1-dev, ${shlibs:Depends}, ${misc:Depends}
 Description: qt-immodule for ibus (QT4)
  IBus is an Intelligent Input Bus. It is a new input framework for Linux
  OS. It provides full featured and user friendly input method user interface.
